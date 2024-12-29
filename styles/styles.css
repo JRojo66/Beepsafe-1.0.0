@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     text-align: center;
     background-color: black; /* Un amarillo usando valores RGB */
@@ -5,15 +9,31 @@ body {
   }
 
   .logo{
-    width: 4%;
-    /* width: 80px; */
+    margin-top: 20%;
+    width: 28%;
   }
 
   p {
     color: white; /* Púrpura usando código hexadecimal */
   }
 
+  .hola{
+    font-size: 200%;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .Beepsafer{
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+  }
+
   .boton {
+    font-weight: bold;
+    width: 200px;
     background-color: #5DFDCB; /* Rojo */
     border: none;
     color: black;
@@ -21,18 +41,34 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     cursor: pointer;
     border-radius: 4px;
   }
+
   .boton:hover {
-      background-color: #da190b;
+      /* background-color: darken(#5DFDCB, 30%); */
+      background-color: #49D1B7;
   }
 
+  a {
+    display: block; /* Para que ocupen todo el ancho y se apilen verticalmente */
+    margin: 0px auto; /* Margen arriba y abajo, centrado horizontal */
+    text-decoration: none;
+    padding: 0px;
+    width: fit-content;
+    text-align: center;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+
   .tienecuenta{
+    padding-top: 50px;
     color: white;
   }
 
   .iniciarsesion{
+    padding-top: 10px;
     color: #5DFDCB
   }
