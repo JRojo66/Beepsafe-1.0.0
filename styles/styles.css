@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: black; /* Un amarillo usando valores RGB */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .logo{
+    width: 4%;
+    /* width: 80px; */
+  }
+
+  p {
+    color: white; /* Púrpura usando código hexadecimal */
+  }
+
+  .boton {
+    background-color: #5DFDCB; /* Rojo */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .boton:hover {
+      background-color: #da190b;
+  }
+
+  .tienecuenta{
+    color: white;
+  }
+
+  .iniciarsesion{
+    color: #5DFDCB
+  }
