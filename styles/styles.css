@@ -51,20 +51,19 @@ body {
     }
 }
 
-
-  p {
+p {
     color: white; /* Púrpura usando código hexadecimal */
-  }
+}
 
-  .hola{
+.hola{
     font-size: 200%;
     margin-top: 5%;
     margin-bottom: 0%;
-    padding-bottom: 0%;
-  }
+padding-bottom: 0%;
+}
 
 
-  .boton {
+.boton {
     font-weight: bold;
     width: 60%;
     background-color: #5DFDCB;
@@ -77,13 +76,13 @@ body {
     font-size: 24px;
     cursor: pointer;
     border-radius: 4px;
-  }
+}
 
-  .boton:hover {
-      background-color: #49D1B7;
-  }
+.boton:hover {
+    background-color: #49D1B7;
+}
 
-  a {
+a {
     display: block; /* Para que ocupen todo el ancho y se apilen verticalmente */
     margin: 0% auto; /* Margen arriba y abajo, centrado horizontal */
     text-decoration: none;
