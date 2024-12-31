@@ -174,9 +174,9 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     /* Crear cuenta */
 
 .logo2 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 15%;
     }
 
 .formulario {
