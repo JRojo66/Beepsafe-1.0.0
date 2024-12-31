@@ -152,8 +152,8 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
 /* Media query para pantallas de más de 900px de ancho */
 @media (min-width: 901px) { /* Usamos 901px para evitar solapamientos */
     .logo {
-    margin-top: 120px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 20%
     }
     .Beepsafer{
