@@ -105,6 +105,7 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
   .campo input[type="tel"],
   .campo input[type="password"],
   .campo textarea {
+    color: white;
     width: 100%;
     padding: 5px 0;
     border: none;
@@ -120,6 +121,15 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
   .campo input[type="password"]:focus,
   .campo textarea:focus {
     border-bottom-color: #007bff; 
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px black inset !important; /* Fondo negro */
+    -webkit-text-fill-color: white !important; /* Color del texto blanco */
+    color: white !important; /* fallback para otros navegadores */
   }
   
   button[type="submit"] {
@@ -192,7 +202,7 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
   font-weight: normal; /* Grosor de la fuente (opcional) */
   opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
 }
-  
+
   .campo {
     margin-bottom: 50px;
   }
@@ -208,6 +218,7 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
   .campo input[type="tel"],
   .campo input[type="password"],
   .campo textarea {
+    color: white;
     width: 100%;
     padding: 10px 0;
     border: none;
@@ -224,6 +235,15 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
   .campo textarea:focus {
     border-bottom-color: #007bff; 
   }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active { /*Hace que el autofill tenga texto blanco con fondo negro*/
+    -webkit-box-shadow: 0 0 0 30px black inset !important; /* Fondo negro */
+    -webkit-text-fill-color: white !important; /* Color del texto blanco */
+    color: white !important; /* fallback para otros navegadores */
+}
   
   button[type="submit"] {
     width: 100%; /* O un valor en px si prefieres un ancho fijo */
