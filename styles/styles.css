@@ -163,11 +163,11 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
         margin-bottom: 80px;
     }
     .tienecuenta{
-        padding-top: 100px;
+        padding-top: 60px;
         color: white;
     }
     .iniciarsesion{
-        padding-top: 44px;
+        padding-top: 22px;
         color: #5DFDCB
     }
 
