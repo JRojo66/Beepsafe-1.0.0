@@ -8,58 +8,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-@media (max-width: 900px) {
-    .logo {
-        margin-top: 20%; /* Margen superior del 20% del ancho del contenedor padre */
-        width: 28%;
-    }
-    .Beepsafer{
-        font-size: 220%;
-    margin-top: 0%;
-    padding-top: 0%;
-    margin-bottom: 8%;
-    }
-    .tienecuenta{
-        padding-top: 12%;
-        color: white;
-    }
-    .iniciarsesion{
-        padding-top: 5%;
-        color: #5DFDCB
-    }
-}
-
-/* Media query para pantallas de más de 900px de ancho */
-@media (min-width: 901px) { /* Usamos 901px para evitar solapamientos */
-    .logo {
-      margin-top: 120px; /* Margen superior de 177 píxeles */
-    width: 20%
-    }
-    .Beepsafer{
-        font-size: 220%;
-        margin-top: 0%;
-        padding-top: 0%;
-        margin-bottom: 80px;
-    }
-    .tienecuenta{
-        padding-top: 100px;
-        color: white;
-    }
-    .iniciarsesion{
-        padding-top: 44px;
-        color: #5DFDCB
-    }
-}
-
-p {
-    color: white; /* Púrpura usando código hexadecimal */
-}
-
 .hola{
     font-size: 200%;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 0%;
-padding-bottom: 0%;
+    padding-bottom: 0%;
 }
 
 
@@ -93,3 +46,214 @@ a {
     font-size: 110%;
     transition: background-color 0.3s ease;
 }
+@media (max-width: 900px) {
+    .logo {
+        margin-top: 20%; /* Margen superior del 20% del ancho del contenedor padre */
+        margin-bottom: 5%;
+        width: 28%;
+    }
+    .Beepsafer{
+    font-size: 220%;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 8%;
+    }
+    .tienecuenta{
+        padding-top: 12%;
+        color: white;
+    }
+    .iniciarsesion{
+        padding-top: 5%;
+        color: #5DFDCB
+    }
+
+    /* Crear cuenta */
+
+.logo2 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    width: 28%;
+    }
+
+.formulario {
+    width: 65%;
+    margin: 0 auto;
+    min-height: 400px;
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+  }
+
+input::placeholder,
+textarea::placeholder { /* Estilo general para todos los navegadores modernos */
+  color: #DCDCDC   ; /* Color gris claro (puedes cambiarlo) */
+  font-size: 14px; /* Tamaño de la fuente (opcional) */
+  font-weight: normal; /* Grosor de la fuente (opcional) */
+  opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
+}
+  
+  .campo {
+    margin-bottom: 50px;
+  }
+  
+  .campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"],
+  .campo input[type="tel"],
+  .campo input[type="password"],
+  .campo textarea {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #5DFDCB;
+    box-sizing: border-box;
+    outline: none; 
+    background-color: transparent;
+  }
+    
+  .campo input[type="text"]:focus,
+  .campo input[type="email"]:focus,
+  .campo input[type="tel"]:focus,
+  .campo input[type="password"]:focus,
+  .campo textarea:focus {
+    border-bottom-color: #007bff; 
+  }
+  
+  button[type="submit"] {
+    width: 100%; /* O un valor en px si prefieres un ancho fijo */
+    height: 3.75rem; /* Equivalente a 60px si el font-size base es 16px */
+    font-size: 1rem; /* Tamaño de fuente para el botón */
+    padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
+    background-color: #5DFDCB;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block; 
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #49D1B7; 
+  }
+}
+
+
+
+/* Media query para pantallas de más de 900px de ancho */
+@media (min-width: 901px) { /* Usamos 901px para evitar solapamientos */
+    .logo {
+    margin-top: 120px;
+    margin-bottom: 90px;
+    width: 20%
+    }
+    .Beepsafer{
+        font-size: 220%;
+        margin-top: 0%;
+        padding-top: 0%;
+        margin-bottom: 80px;
+    }
+    .tienecuenta{
+        padding-top: 100px;
+        color: white;
+    }
+    .iniciarsesion{
+        padding-top: 44px;
+        color: #5DFDCB
+    }
+
+    /* Crear cuenta */
+
+.logo2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 20%;
+    }
+
+.formulario {
+    width: 40%;
+    margin: 0 auto;
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+  }
+
+input::placeholder,
+textarea::placeholder { /* Estilo general para todos los navegadores modernos */
+  color: #DCDCDC   ; /* Color gris claro (puedes cambiarlo) */
+  font-size: 14px; /* Tamaño de la fuente (opcional) */
+  font-weight: normal; /* Grosor de la fuente (opcional) */
+  opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
+}
+  
+  .campo {
+    margin-bottom: 50px;
+  }
+  
+  .campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"],
+  .campo input[type="tel"],
+  .campo input[type="password"],
+  .campo textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #5DFDCB;
+    box-sizing: border-box;
+    outline: none; 
+    background-color: transparent;
+  }
+    
+  .campo input[type="text"]:focus,
+  .campo input[type="email"]:focus,
+  .campo input[type="tel"]:focus,
+  .campo input[type="password"]:focus,
+  .campo textarea:focus {
+    border-bottom-color: #007bff; 
+  }
+  
+  button[type="submit"] {
+    width: 100%; /* O un valor en px si prefieres un ancho fijo */
+    height: 3.75rem; /* Equivalente a 60px si el font-size base es 16px */
+    font-size: 1rem; /* Tamaño de fuente para el botón */
+    padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
+    background-color: #5DFDCB;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block; 
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #49D1B7; 
+  }
+}
+
+p {
+    color: white; /* Púrpura usando código hexadecimal */
+}
+
+
+
+
