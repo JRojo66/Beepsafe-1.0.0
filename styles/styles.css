@@ -64,7 +64,8 @@ a {
     }
     .iniciarsesion{
         padding-top: 5%;
-        color: #5DFDCB
+        color: #5DFDCB;
+        text-decoration: underline;
     }
 
     /* Crear cuenta */
@@ -178,7 +179,8 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     }
     .iniciarsesion{
         padding-top: 11px;
-        color: #5DFDCB
+        color: #5DFDCB;
+        text-decoration: underline;
     }
 
     /* Crear cuenta */
