@@ -1,106 +1,111 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    text-align: center;
-    background-color: black; /* Un amarillo usando valores RGB */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-align: center;
+  background-color: black; /* Un amarillo usando valores RGB */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.hola{
-    font-size: 200%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+p {
+  color: white; /* Púrpura usando código hexadecimal */
 }
 
+.hola {
+  font-size: 200%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
 
 .boton {
-    font-weight: bold;
-    width: 60%;
-    background-color: #5DFDCB;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 4px;
+  font-weight: bold;
+  width: 60%;
+  background-color: #5dfdcb;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .boton:hover {
-    background-color: #49D1B7;
+  background-color: #49d1b7;
 }
 
 a {
-    color: white;
-    display: block; /* Para que ocupen todo el ancho y se apilen verticalmente */
-    margin: 0% auto; /* Margen arriba y abajo, centrado horizontal */
-    text-decoration: none;
-    padding: 0px;
-    width: fit-content;
-    text-align: center;
-    font-size: 110%;
-    transition: background-color 0.3s ease;
+  color: white;
+  display: block; /* Para que ocupen todo el ancho y se apilen verticalmente */
+  margin: 0% auto; /* Margen arriba y abajo, centrado horizontal */
+  text-decoration: none;
+  padding: 0px;
+  width: fit-content;
+  text-align: center;
+  font-size: 110%;
+  transition: background-color 0.3s ease;
 }
 @media (max-width: 900px) {
-    .logo {
-        margin-top: 20%; /* Margen superior del 20% del ancho del contenedor padre */
-        margin-bottom: 5%;
-        width: 28%;
-    }
-    .Beepsafer{
+  .logo {
+    margin-top: 20%; /* Margen superior del 20% del ancho del contenedor padre */
+    margin-bottom: 5%;
+    width: 28%;
+  }
+  .Beepsafer {
     font-size: 220%;
     margin-top: 0%;
     padding-top: 0%;
     margin-bottom: 8%;
-    }
-    .tienecuenta{
-        padding-top: 12%;
-        color: white;
-    }
-    .iniciarsesion{
-        padding-top: 5%;
-        color: #5DFDCB;
-        text-decoration: underline;
-    }
+  }
+  .tienecuenta {
+    padding-top: 12%;
+    color: white;
+  }
+  .iniciarsesion {
+    padding-top: 5%;
+    color: #5dfdcb;
+    text-decoration: underline;
+  }
 
-    /* Crear cuenta */
+  /* Crear cuenta / Iniciar Sesión*/
 
-.logo2 {
+  .logo2 {
     margin-top: 15%;
     margin-bottom: 10%;
     width: 28%;
-    }
+  }
 
-.formulario {
+  .formulario {
     width: 65%;
     margin: 0 auto;
     min-height: 400px;
     box-sizing: border-box; /* Incluir padding y border en el ancho total */
   }
 
-input::placeholder,
-textarea::placeholder { /* Estilo general para todos los navegadores modernos */
-  color: #DCDCDC   ; /* Color gris claro (puedes cambiarlo) */
-  font-size: 14px; /* Tamaño de la fuente (opcional) */
-  font-weight: normal; /* Grosor de la fuente (opcional) */
-  opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
-}
-  
+  input::placeholder,
+  textarea::placeholder {
+    /* Estilo general para todos los navegadores modernos */
+    color: #dcdcdc; /* Color gris claro (puedes cambiarlo) */
+    font-size: 14px; /* Tamaño de la fuente (opcional) */
+    font-weight: normal; /* Grosor de la fuente (opcional) */
+    opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
+  }
+
   .campo {
     margin-bottom: 50px;
   }
-  
+
   .campo label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
   }
-  
+
   .campo input[type="text"],
   .campo input[type="email"],
   .campo input[type="tel"],
@@ -110,18 +115,18 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     width: 100%;
     padding: 5px 0;
     border: none;
-    border-bottom: 1px solid #5DFDCB;
+    border-bottom: 1px solid #5dfdcb;
     box-sizing: border-box;
-    outline: none; 
+    outline: none;
     background-color: transparent;
   }
-    
+
   .campo input[type="text"]:focus,
   .campo input[type="email"]:focus,
   .campo input[type="tel"]:focus,
   .campo input[type="password"]:focus,
   .campo textarea:focus {
-    border-bottom-color: #007bff; 
+    border-bottom-color: #007bff;
   }
 
   input:-webkit-autofill,
@@ -132,13 +137,13 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     -webkit-text-fill-color: white !important; /* Color del texto blanco */
     color: white !important; /* fallback para otros navegadores */
   }
-  
+
   button[type="submit"] {
     width: 100%; /* O un valor en px si prefieres un ancho fijo */
     height: 3.75rem; /* Equivalente a 60px si el font-size base es 16px */
     font-size: 1rem; /* Tamaño de fuente para el botón */
     padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
-    background-color: #5DFDCB;
+    background-color: #5dfdcb;
     border: none;
     color: black;
     padding: 10px 20px;
@@ -150,71 +155,71 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     margin: 10px auto 0;
     cursor: pointer;
     border-radius: 4px;
-    display: block; 
+    display: block;
   }
-  
+
   button[type="submit"]:hover {
-      background-color: #49D1B7; 
+    background-color: #49d1b7;
   }
 }
 
-
-
 /* Media query para pantallas de más de 900px de ancho */
-@media (min-width: 901px) { /* Usamos 901px para evitar solapamientos */
-    .logo {
+@media (min-width: 901px) {
+  /* Usamos 901px para evitar solapamientos */
+  .logo {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 20%
-    }
-    .Beepsafer{
-        font-size: 220%;
-        margin-top: 0%;
-        padding-top: 0%;
-        margin-bottom: 80px;
-    }
-    .tienecuenta{
-        padding-top: 11px;
-        color: white;
-    }
-    .iniciarsesion{
-        padding-top: 11px;
-        color: #5DFDCB;
-        text-decoration: underline;
-    }
+    width: 20%;
+  }
+  .Beepsafer {
+    font-size: 220%;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 80px;
+  }
+  .tienecuenta {
+    padding-top: 11px;
+    color: white;
+  }
+  .iniciarsesion {
+    padding-top: 11px;
+    color: #5dfdcb;
+    text-decoration: underline;
+  }
 
-    /* Crear cuenta */
+  /* Crear cuenta */
 
-.logo2 {
+  .logo2 {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 15%;
-    }
+  }
 
-.formulario {
+  .formulario {
     width: 40%;
     margin: 0 auto;
     box-sizing: border-box; /* Incluir padding y border en el ancho total */
   }
 
-input::placeholder,
-textarea::placeholder { /* Estilo general para todos los navegadores modernos */
-  color: #DCDCDC   ; /* Color gris claro (puedes cambiarlo) */
-  font-size: 14px; /* Tamaño de la fuente (opcional) */
-  font-weight: normal; /* Grosor de la fuente (opcional) */
-  opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
-}
+  input::placeholder,
+  textarea::placeholder {
+    /* Estilo general para todos los navegadores modernos */
+    color: #dcdcdc; /* Color gris claro (puedes cambiarlo) */
+    font-size: 14px; /* Tamaño de la fuente (opcional) */
+    font-weight: normal; /* Grosor de la fuente (opcional) */
+    opacity: 1; /* Asegura que el placeholder sea visible en Firefox */
+  }
 
   .campo {
     margin-bottom: 50px;
   }
-  
+
   .campo label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
   }
-  
+
   .campo input[type="text"],
   .campo input[type="email"],
   .campo input[type="tel"],
@@ -224,35 +229,36 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     width: 100%;
     padding: 10px 0;
     border: none;
-    border-bottom: 1px solid #5DFDCB;
+    border-bottom: 1px solid #5dfdcb;
     box-sizing: border-box;
-    outline: none; 
+    outline: none;
     background-color: transparent;
   }
-    
+
   .campo input[type="text"]:focus,
   .campo input[type="email"]:focus,
   .campo input[type="tel"]:focus,
   .campo input[type="password"]:focus,
   .campo textarea:focus {
-    border-bottom-color: #007bff; 
+    border-bottom-color: #49d1b7; /* color de la linea de subrayado del formulario cuando lo estoy llenando*/
   }
 
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus,
-  input:-webkit-autofill:active { /*Hace que el autofill tenga texto blanco con fondo negro*/
+  input:-webkit-autofill:active {
+    /*Hace que el autofill tenga texto blanco con fondo negro*/
     -webkit-box-shadow: 0 0 0 30px black inset !important; /* Fondo negro */
     -webkit-text-fill-color: white !important; /* Color del texto blanco */
     color: white !important; /* fallback para otros navegadores */
-}
-  
+  }
+
   button[type="submit"] {
-    width: 100%; /* O un valor en px si prefieres un ancho fijo */
+    width: 100%;
     height: 3.75rem; /* Equivalente a 60px si el font-size base es 16px */
     font-size: 1rem; /* Tamaño de fuente para el botón */
     padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
-    background-color: #5DFDCB;
+    background-color: #5dfdcb;
     border: none;
     color: black;
     padding: 10px 20px;
@@ -264,18 +270,172 @@ textarea::placeholder { /* Estilo general para todos los navegadores modernos */
     margin: 10px auto 0;
     cursor: pointer;
     border-radius: 4px;
-    display: block; 
+    display: block;
   }
-  
+
   button[type="submit"]:hover {
-      background-color: #49D1B7; 
+    background-color: #49d1b7;
   }
 }
 
-p {
-    color: white; /* Púrpura usando código hexadecimal */
+/* Iniciar/Detener Actividad*/
+
+.saludo {
+  font-size: 200%;
+  margin: 0px;
+  padding: 0px 0px 0px 30%;
+  text-align: left;
 }
 
+.contenedor {
+  display: flex; /* Convierte el contenedor en flexible */
+  width: 100%; /* O el ancho que necesites */
+  padding-bottom: 5%;
+}
 
+.caja1 {
+  width: 50%; /* O el ancho que necesites para cada caja */
+  background-color: black;
+  border: 1px solid black;
+  padding-top: 75px;
+  box-sizing: border-box; /* Incluye el padding y border en el ancho */
+}
 
+.caja2 {
+  width: 50%;
+  background-color: black;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex; /* Hacemos caja2 un contenedor flexible */
+  justify-content: center; /* Centramos el contenido horizontalmente */
+  align-items: center; /* Centramos el contenido verticalmente */
+}
 
+.logo {
+  width: 45%; /* La imagen ocupará el 100% del ancho de su contenedor */
+  height: 45%; /* La imagen ocupará el 100% de la altura de su contenedor */
+  padding-top: 30px;
+  object-fit: contain; /* Ajusta la imagen para que quepa dentro del contenedor manteniendo sus proporciones */
+}
+
+.botonIniciar {
+  border: 20px solid #5dfdcb; /*Borde de 20px en el color especificado */
+  /* border-image: linear-gradient(to right, red 10%, #5DFDCB 10%) 1 round; */
+  height: 270px;
+  width: 270px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  background-color: transparent; /* Fondo transparente */
+  border-radius: 50%; /* Hace que el botón sea circular */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón por encima */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.tiempo {
+  font-size: 18px;
+}
+
+.grid-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr 2px 1fr;
+  border: 1px solid #5dfdcb;
+  border-radius: 5px;
+
+  padding: 0px;
+  position: relative;
+}
+
+.menu {
+  /* Estilos para los menús desplegables */
+  width: 100%; /* Ocupa todo el ancho de la celda */
+  background-color: black; /* Fondo negro para el menú */
+  color: white; /* Texto blanco para las opciones */
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+.menu option {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center; /* Centra el texto de las opciones */
+  font-size: 14px;
+}
+
+.menu option:hover {
+  background-color: #333; /* Fondo gris oscuro al pasar el mouse */
+}
+
+.elegidos {
+  margin: 0px;
+  padding: 0px;
+}
+
+.divider {
+  position: relative;
+  background-color: transparent; /* Sin fondo directamente */
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 0px; /* Espacio desde la parte superior del contenedor */
+  bottom: 0px; /* Espacio desde la parte inferior del contenedor */
+  left: 50%; /* Centra la línea */
+  width: 2px;
+  background-color: #5dfdcb; /* Color del divisor */
+  z-index: 1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.inicio,
+.miPerfil {
+  width: 50%;
+  display: flex;
+  flex-direction: column; /* Hacemos que los elementos dentro de cada columna se apilen */
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.inicio{
+  background-color: #5dfdcb;
+  border-radius: 30px;
+}
+.miPerfil{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.botonInicio {
+    background-color: #5dfdcb;
+    border: none;
+    font-size: 8px;
+
+}
+
+.botonPerfil{
+    background-color: white;
+    border: none;
+    font-size: 8px;
+}
+
+.home{
+    height: 18px;
+    background-color: #5dfdcb;
+}
