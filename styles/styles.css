@@ -158,9 +158,12 @@ a {
     display: block;
   }
 
+  button[type="submit"]:hover {
+    background-color: #49d1b7;
+  }
   /* Provisorio para mostrar la pagina de IniciarDetener - Borrar cuando restaure el boton */
   /*****************************************************************************************/
-  .iniciarSesion2{
+  .iniciarSesion2 {
     width: 200px;
     background-color: #5dfdcb;
     border-radius: 4px;
@@ -170,13 +173,8 @@ a {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-   
   }
 
-
-  button[type="submit"]:hover {
-    background-color: #49d1b7;
-  }
 }
 
 /* Media query para pantallas de más de 900px de ancho */
@@ -289,9 +287,12 @@ a {
     display: block;
   }
 
-    /* Provisorio para mostrar la pagina de IniciarDetener - Borrar cuando restaure el boton */
-    /*****************************************************************************************/
-  .iniciarSesion2{
+  button[type="submit"]:hover {
+    background-color: #49d1b7;
+  }
+  /* Provisorio para mostrar la pagina de IniciarDetener - Borrar cuando restaure el boton */
+  /*****************************************************************************************/
+  .iniciarSesion2 {
     width: 100%;
     height: 3.75rem; /* Equivalente a 60px si el font-size base es 16px */
     font-size: 1rem; /* Tamaño de fuente para el botón */
@@ -310,34 +311,39 @@ a {
     border-radius: 4px;
     display: block;
   }
-
-  }
-  button[type="submit"]:hover {
-    background-color: #49d1b7;
-  }
+}
 
 
 /* Iniciar/Detener Actividad*/
+
+
+.contenedor {
+    display: flex; /* Convierte el contenedor en flexible */
+    width: 100%; /* O el ancho que necesites */
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.caja1 {
+    width: 50%; /* O el ancho que necesites para cada caja */
+    background-color: black;
+    /* border: 1px solid red; */
+    /* padding-top: 75px; */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+    flex-grow: 1;
+    max-height: 150px;
+}
 
 .saludo {
   font-size: 32px;
   margin: 0px;
   padding: 0px 0px 0px 30%;
   text-align: left;
-}
-
-.contenedor {
-  display: flex; /* Convierte el contenedor en flexible */
-  width: 100%; /* O el ancho que necesites */
-  padding-bottom: 5%;
-}
-
-.caja1 {
-  width: 50%; /* O el ancho que necesites para cada caja */
-  background-color: black;
-  border: 1px solid black;
-  padding-top: 75px;
-  box-sizing: border-box; /* Incluye el padding y border en el ancho */
+  /* border: 1px solid blue; */
 }
 
 .caja2 {
@@ -350,13 +356,20 @@ a {
   display: flex; /* Hacemos caja2 un contenedor flexible */
   justify-content: center; /* Centramos el contenido horizontalmente */
   align-items: center; /* Centramos el contenido verticalmente */
+  /* border: 1px solid green; */
+  flex-grow: 1;
+  max-height: 150px;
 }
 
-.logo {
+.logoActividad {
+/* Margen superior del 20% del ancho del contenedor padre */
+  margin-bottom: 5%;
   width: 45%; /* La imagen ocupará el 100% del ancho de su contenedor */
   height: 45%; /* La imagen ocupará el 100% de la altura de su contenedor */
   padding-top: 30px;
   object-fit: contain; /* Ajusta la imagen para que quepa dentro del contenedor manteniendo sus proporciones */
+  /* border: 1px solid yellow; */
+  max-height: 100px;
 }
 
 .botonIniciar {
@@ -378,32 +391,31 @@ a {
   font-size: 18px;
 }
 
-
- .contenedor-padre {
-    width: 80%;
-    padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
-    background-color: black;
-    border: 1px solid #5dfdcb;
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 35px auto 0;
-    cursor: pointer;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-
- }
+.contenedor-padre {
+  width: 80%;
+  padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
+  background-color: black;
+  border: 1px solid #5dfdcb;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:25px auto;
+  cursor: pointer;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  max-width: 400px;
+}
 
 .menu {
-    /*Estilos para los menús desplegables */
-    width: 100%; /* Ocupa todo el ancho de la celda */
-  background-color: black; /* Fondo negro para el menú*/ 
+  /*Estilos para los menús desplegables */
+  width: 100%; /* Ocupa todo el ancho de la celda */
+  background-color: black; /* Fondo negro para el menú*/
   color: white; /* Texto blanco para las opciones */
   /* border: 1px solid red; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
@@ -421,28 +433,29 @@ a {
 }
 
 .flex-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin-top: 0px;
-    border-radius: 30px;
-    /* border: 1px solid white; */
-    
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0px;
+  border-radius: 30px;
+  /* border: 1px solid white; */
 }
 
-.item1, .item2, .item3 {
-    width:33%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
+.item1,
+.item2,
+.item3 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
 }
 
-.item1, .item2 {
-    border-right: 1px solid #5dfdcb
+.item1,
+.item2 {
+  border-right: 1px solid #5dfdcb;
 }
-
 
 /* Resto de tus estilos para .menu, .elegidos, etc. */
 
@@ -460,24 +473,23 @@ a {
 }
 
 .contenedor-padre2 {
-    border-radius: 10%;
-    margin: 40px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
+  margin: 25px auto;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 440px;
 }
 .flex-container2 {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin-top: 0px;
-    border-radius: 30px;
-    background-color: white;
-    
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0px;
+  border-radius: 30px;
+  background-color: white;
 }
-
-
 
 .inicio,
 .miPerfil {
@@ -488,29 +500,28 @@ a {
   padding: 10px 0px;
 }
 
-.inicio{
+.inicio {
   background-color: #5dfdcb;
   border-radius: 30px;
 }
-.miPerfil{
-    background-color: white;
-    border-radius: 30px;
+.miPerfil {
+  background-color: white;
+  border-radius: 30px;
 }
 
 .botonInicio {
-    background-color: #5dfdcb;
-    border: none;
-    font-size: 8px;
-
+  background-color: #5dfdcb;
+  border: none;
+  font-size: 8px;
 }
 
-.botonPerfil{
-    background-color: white;
-    border: none;
-    font-size: 8px;
+.botonPerfil {
+  background-color: white;
+  border: none;
+  font-size: 8px;
 }
 
-.home{
-    height: 18px;
-    background-color: #5dfdcb;
+.home {
+  height: 18px;
+  background-color: #5dfdcb;
 }
