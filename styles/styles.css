@@ -455,8 +455,6 @@ a {
   border-right: 1px solid #5dfdcb;
 }
 
-/* Resto de tus estilos para .menu, .elegidos, etc. */
-
 .menu option {
   background-color: black;
   color: white;
@@ -508,12 +506,14 @@ a {
 }
 
 .botonInicio {
+  color: black;
   background-color: #5dfdcb;
   border: none;
   font-size: 8px;
 }
 
 .botonPerfil {
+  color: black;  
   background-color: white;
   border: none;
   font-size: 8px;
@@ -542,6 +542,7 @@ a {
     height: 4rem;
     color: white;
     background-color: #300965;
+    max-width: 440px;
 }
 
 .containerPerfil{
@@ -555,7 +556,6 @@ a {
     margin-left: 20px;
     width: 80%;
     text-align: left;
-    /* margin-right: 60%; */
 }
 .iniciob,
 .miPerfilb {
@@ -576,12 +576,14 @@ a {
 }
 
 .botonIniciob {
+  color: black;
   background-color: white;
   border: none;
   font-size: 8px;
 }
 
 .botonPerfilb {
+  color: black;  
   background-color: #5dfdcb;
   border: none;
   font-size: 8px;
@@ -601,5 +603,14 @@ a {
 
 .break{
     height: 4px;
+}
+
+/* Historial */
+
+.encabezado{
+    margin: 22px;
+}
+.configuracion{
+    background-color: #300965;
 }
 
