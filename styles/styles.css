@@ -174,7 +174,6 @@ a {
     text-align: center;
     text-decoration: none;
   }
-
 }
 
 /* Media query para pantallas de más de 900px de ancho */
@@ -313,29 +312,27 @@ a {
   }
 }
 
-
 /* Iniciar/Detener Actividad*/
 
-
 .contenedor {
-    display: flex; /* Convierte el contenedor en flexible */
-    width: 100%; /* O el ancho que necesites */
-    max-width: 500px;
-    margin: 0 auto;
-    padding-bottom: 5%;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid white; */
+  display: flex; /* Convierte el contenedor en flexible */
+  width: 100%; /* O el ancho que necesites */
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
 }
 
 .caja1 {
-    width: 50%; /* O el ancho que necesites para cada caja */
-    background-color: black;
-    /* border: 1px solid red; */
-    /* padding-top: 75px; */
-    box-sizing: border-box; /* Incluye el padding y border en el ancho */
-    flex-grow: 1;
-    max-height: 150px;
+  width: 50%; /* O el ancho que necesites para cada caja */
+  background-color: black;
+  /* border: 1px solid red; */
+  /* padding-top: 75px; */
+  box-sizing: border-box; /* Incluye el padding y border en el ancho */
+  flex-grow: 1;
+  max-height: 150px;
 }
 
 .saludo {
@@ -361,7 +358,7 @@ a {
 }
 
 .logoActividad {
-/* Margen superior del 20% del ancho del contenedor padre */
+  /* Margen superior del 20% del ancho del contenedor padre */
   margin-bottom: 5%;
   width: 45%; /* La imagen ocupará el 100% del ancho de su contenedor */
   height: 45%; /* La imagen ocupará el 100% de la altura de su contenedor */
@@ -402,7 +399,7 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin:25px auto;
+  margin: 25px auto;
   cursor: pointer;
   border-radius: 16px;
   display: flex;
@@ -513,7 +510,7 @@ a {
 }
 
 .botonPerfil {
-  color: black;  
+  color: black;
   background-color: white;
   border: none;
   font-size: 8px;
@@ -527,35 +524,35 @@ a {
 /*Perfil*/
 
 .contenedor-padre3 {
-    padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
-    margin: 130px auto;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 440px;
-  }
-
-.perfil{
-    font-size: 1.8rem;
-    width: 100%;
-    height: 4rem;
-    color: white;
-    background-color: #300965;
-    max-width: 440px;
+  padding: 0.625rem 1.25rem; /* Ajustar padding con unidades relativas */
+  margin: 130px auto;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 440px;
 }
 
-.containerPerfil{
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
+.perfil {
+  font-size: 1.8rem;
+  width: 100%;
+  height: 4rem;
+  color: white;
+  background-color: #300965;
+  max-width: 440px;
 }
 
-.opciones{
-    font-size: 70%;
-    margin-left: 20px;
-    width: 80%;
-    text-align: left;
+.containerPerfil {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.opciones {
+  font-size: 70%;
+  margin-left: 20px;
+  width: 80%;
+  text-align: left;
 }
 .iniciob,
 .miPerfilb {
@@ -583,7 +580,7 @@ a {
 }
 
 .botonPerfilb {
-  color: black;  
+  color: black;
   background-color: #5dfdcb;
   border: none;
   font-size: 8px;
@@ -595,22 +592,77 @@ a {
   background-color: #5dfdcb;
 }
 
-.saludoPerfil{
-    font-size: 40px;
-    margin: 0px;
-    text-align: left;
+.saludoPerfil {
+  font-size: 40px;
+  margin: 0px;
+  text-align: left;
 }
 
-.break{
-    height: 4px;
+.break {
+  height: 4px;
 }
 
 /* Historial */
 
-.encabezado{
-    margin: 22px;
-}
-.configuracion{
-    background-color: #300965;
+.configuracion {
+  background-color: #300965;
+  padding-bottom: 3px;
+  width: 397px;
+  margin: 0 auto;
 }
 
+.encabezado {
+  margin: 22px;
+}
+
+.encabezadoBajada {
+  font-size: 14px;
+  text-align: center;
+  margin: 3% auto;
+  width: 370px;
+}
+
+.containerActividad {
+  background-color: black;
+  margin: 0 auto;
+  padding-top: 0;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  padding-top: 10px;
+}
+
+.subActividad{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fechaActividad {
+  margin-top: 0px;
+  font-size: 10px;
+  padding: 0px;
+}
+
+.actividad {
+  width: 100%;  
+  text-align: left;
+}
+
+.detalleActividad{
+    color: white;
+}
+
+.comentariosActividad{
+    font-size: 14px;
+    text-align: left;
+    margin: 3% auto;
+    width: 80%;
+}
+.breakVioleta{
+    height: 10px;
+    background-color: #300965;
+}
