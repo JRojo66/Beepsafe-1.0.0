@@ -666,3 +666,18 @@ a {
     height: 10px;
     background-color: #300965;
 }
+
+/* Mis mensajes*/
+.perfilb {
+    font-size: 1.8rem;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    background-color: black;
+    max-width: 440px;
+  }
+
+/* Mis contactos*/
+  .encabezadob{
+    height: 30px;
+  }
