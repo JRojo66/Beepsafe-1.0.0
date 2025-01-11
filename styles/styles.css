@@ -675,9 +675,33 @@ a {
     color: white;
     background-color: black;
     max-width: 440px;
-  }
+}
 
 /* Mis contactos*/
-  .encabezadob{
-    height: 30px;
+
+.opcionesAmigos {
+    font-size: 60%;
+    margin-left: 80px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .perfilc {
+    font-size: 1.8rem;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    max-width: 440px;
+}
+
+.desplegable{
+    height: 15px;
+}
+
+.opcionesAmigosb {
+    font-size: 50%;
+    margin-left: 100px;
+    width: 80%;
+    text-align: left;
   }
