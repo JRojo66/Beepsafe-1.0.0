@@ -545,7 +545,8 @@ a {
 .containerPerfil {
   display: flex;
   align-items: center;
-  padding-top: 10px;
+  justify-content: space-between;
+  padding-top:10px;
 }
 
 .opciones {
