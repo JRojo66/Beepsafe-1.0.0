@@ -539,7 +539,7 @@ a {
   height: 4rem;
   color: white;
   background-color: #300965;
-  max-width: 440px;
+  max-width: 380px;
 }
 
 .containerPerfil {
@@ -608,7 +608,7 @@ a {
 .configuracion {
   background-color: #300965;
   padding-bottom: 3px;
-  width: 397px;
+  width: 380px;
   margin: 0 auto;
 }
 
@@ -700,7 +700,7 @@ a {
     height: 3rem;
     color: white;
     background-color: black;
-    max-width: 440px;
+    max-width: 380px;
 }
 
   .perfild {
@@ -709,7 +709,7 @@ a {
     height: 3rem;
     color: white;
     background-color: black;
-    max-width: 440px;
+    max-width: 380px;
 }
 
 
@@ -734,3 +734,14 @@ a {
   .tabla{
     height: 1.8rem;
   }
+
+  /* Mis equipos*/
+
+  .perfile {
+    font-size: 1.8rem;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    background-color: black;
+    max-width: 380px;
+}
