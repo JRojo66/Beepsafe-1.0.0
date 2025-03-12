@@ -173,6 +173,7 @@ a {
   button[type="submit"]:hover {
     background-color: #49d1b7;
   }
+
   /* Provisorio para mostrar la pagina de IniciarDetener - Borrar cuando restaure el boton */
   /*****************************************************************************************/
   .iniciarSesion2 {
@@ -322,6 +323,22 @@ a {
     border-radius: 4px;
     display: block;
   }
+}
+
+.password-container {
+  position: relative;
+}
+
+.ojo {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+}
+.ojo:hover {
+  color: #49d1b7;
 }
 
 /* Iniciar/Detener Actividad*/

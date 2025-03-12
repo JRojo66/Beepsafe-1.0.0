@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
@@ -22,16 +23,20 @@
           <input type="tel" id="tel" name="tel" placeholder="Telefono p.e. 1134567890">
         </div>
 
-        <div class="campo">
+        <div class="campo password-container">
           <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña">
+          <i class="fa fa-eye ojo" onclick="togglePassword('contraseña', this)"></i>
         </div>
 
-        <div class="campo">
+        <div class="campo password-container">
           <input type="password" id="contraseña2" name="contraseña2" placeholder="Repetir contraseña">
+          <i class="fa fa-eye ojo" onclick="togglePassword('contraseña2', this)"></i>
         </div>
 
         <button type="submit">Crear Cuenta</button>
       </div>
     </form>
+
+    <script src="./JS/crearCuenta.js"></script>
 </body>
 </html>
